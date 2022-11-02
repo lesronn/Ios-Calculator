@@ -1,6 +1,6 @@
 # Ios Calculator
 
-![image](https://github.com/lesronn/weatherApp/blob/main/public/imgs/Screenshot_7.png)
+![image](https://github.com/lesronn/Ios-Calculator/blob/main/public/images/Screenshot_15.png)
 
 ## App Demo WebSite
 
