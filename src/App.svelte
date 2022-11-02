@@ -6,9 +6,7 @@
   <div class="left"><Phone /></div>
   <div class="right">
     <div class="container">
-      <div class="top">
-        <!-- <h2>~ IOS Calculator made with <span> Svelte.js </span> ~</h2> -->
-      </div>
+      <div class="top" />
 
       <div class="bottom">
         <p>
@@ -21,6 +19,9 @@
     </div>
   </div>
 </main>
+<div class="responsive">
+  <h3>This App is not Available for mobile screens</h3>
+</div>
 
 <style>
   main {
@@ -28,6 +29,10 @@
     height: 100vh !important;
     display: flex;
     flex-direction: row;
+  }
+  .responsive {
+    text-align: center;
+    display: none;
   }
   main .left {
     height: 100vh !important;
@@ -76,5 +81,14 @@
   }
   .bottom a {
     color: #333;
+  }
+
+  @media (max-width: 600px) {
+    main {
+      display: none;
+    }
+    .responsive {
+      display: block;
+    }
   }
 </style>
